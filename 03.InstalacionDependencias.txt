@@ -1,7 +1,7 @@
 Básicamente, pip es como el npm de JavaScript, y el archivo requeriments.txt es 
 como el package.json de JavaScript.
 
-Es importante recordar que esto se debe correr con el entorno virtual activado (avenv)
+Es importante recordar que esto se debe correr con el entorno virtual activado (actenv)
 
 Módulos populares: Requests, BeautifulSoup4, Pandas, Numpy, Pytest 
 
