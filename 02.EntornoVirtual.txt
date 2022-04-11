@@ -1,0 +1,24 @@
+Entornos Virtuales
+
+Un entorno virtual es un directorio que contiene una instalación de Python de una versión en 
+particular, además de unos cuantos paquetes adicionales.
+.
+Ejemplo:
+La aplicación A puede tener su propio entorno virtual con la versión 1.0 instalada mientras 
+que la aplicación B tiene otro entorno virtual con la versión 2.0. Si la aplicación B requiere 
+que actualizar la librería a la versión 3.0, ésto no afectará el entorno virtual de la 
+aplicación A.
+
+Paso a Paso:
+
+1. Crear una carpeta y dentro ejecutar: git init
+
+2. Crear python para este proyecto: py -m venv venv
+
+3. Activar el python instalado, para no trabajar con el global del pc (cmd):
+   • .\venv\Scripts\activate
+   • deactivate (Para desactivar)
+   
+4. Crear alitas para el comando anterior: doskey actenv=.\venv\Scripts\activate
+
+5. Ahora cada que vayamos activar el python del entorno virtual ejecutar: actenv

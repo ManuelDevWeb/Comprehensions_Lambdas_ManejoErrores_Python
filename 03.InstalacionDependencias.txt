@@ -1,0 +1,20 @@
+Básicamente, pip es como el npm de JavaScript, y el archivo requeriments.txt es 
+como el package.json de JavaScript.
+
+Es importante recordar que esto se debe correr con el entorno virtual activado (avenv)
+
+Módulos populares: Requests, BeautifulSoup4, Pandas, Numpy, Pytest 
+
+• pip isntall <paquete>: Instala el paquete que se desee.
+
+• pip freeze: Muestra todos los paquetes que se han instalado en el ambiente 
+  virtual.
+
+Si quisiéramos que alguien mas pueda ejecutar nuestro proyecto es importante compartir 
+que librería y versión hemos empleado; eso se realiza con el comando:
+
+• pip freeze > requirements.txt
+
+para instalar paquetes desde un archivo como requirements.txt ejecutamos:
+
+• pip install -r requirements.txt
