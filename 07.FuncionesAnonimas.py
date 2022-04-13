@@ -4,9 +4,9 @@
 def palindrome(string):
     return string == string[::-1]
 
-print(palindrome("ana"))
+print(palindrome("oso"))
 
 # Con lambda
-palindromeLambda = lambda string: string == string[::-1]
+palindromeLambda = lambda string, string2: string == string[::-1] and string2 == string2[::-1]
 
-print(palindromeLambda("ana"))
+print(palindromeLambda("ana", "oso"))

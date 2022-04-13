@@ -5,7 +5,7 @@ Es importante recordar que esto se debe correr con el entorno virtual activado (
 
 Módulos populares: Requests, BeautifulSoup4, Pandas, Numpy, Pytest 
 
-• pip isntall <paquete>: Instala el paquete que se desee.
+• pip install <paquete>: Instala el paquete que se desee.
 
 • pip freeze: Muestra todos los paquetes que se han instalado en el ambiente 
   virtual.
