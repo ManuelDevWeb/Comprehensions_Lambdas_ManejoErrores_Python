@@ -16,7 +16,7 @@ odd_comprehension=[i for i in my_list if i%2!=0]
 print(odd_comprehension)
 
 # Lista de números impares utilizando filter
-odd_filter=list(filter(lambda num: num%2!=0, my_list))
+odd_filter=list(filter(lambda number: number%2!=0,my_list))
 print(odd_filter)
 
 # 2. Map
